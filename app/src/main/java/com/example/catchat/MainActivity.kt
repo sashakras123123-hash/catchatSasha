@@ -46,7 +46,6 @@ class MainActivity : AppCompatActivity() {
         // связываем нижнюю панель навигации с контроллером навигации
         val bottomNavView = findViewById<BottomNavigationView>(R.id.bottom_nav)
         bottomNavView.setupWithNavController(navController)
-
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {
